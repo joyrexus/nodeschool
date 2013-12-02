@@ -1,10 +1,14 @@
 http = require 'http'
-fs = require 'fs'
+map = require 'through2-map'
 
 file = process.argv[2]
 
+upcase = (chunk) -> chunk.toString().toUpperCase()
+  
 connect = (req, res) ->
-  fs.createReadStream(file).pipe(res)
+  if req.method is 'POST'
+    req.pipe(map upcase).pipe(res)
 
 http.createServer(connect).listen(8000)
+
 
