@@ -5,7 +5,6 @@ connect = (req, res) ->
   parsed = url.parse(req.url, true)
   date = new Date(parsed.query.iso)
   result = ''
-  console.log parsed.pathname
   if /api\/parsetime/.test(parsed.pathname)
     result = 
       hour: date.getHours()
