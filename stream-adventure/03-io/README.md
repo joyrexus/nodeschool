@@ -1,4 +1,4 @@
-# INPUT OUTPUT
+# Input Output
 
 Take data from `process.stdin` and pipe it to `process.stdout`.
 
