@@ -11,7 +11,7 @@ unzip = zlib.createGunzip()
 untar = tar.Parse()
 untar.on 'entry', (entry) -> 
   return if not (entry.type is 'File')
-  hash = crypto.createHash('md5', {encoding: 'hex'})
+  hash = crypto.createHash('md5', encoding: 'hex')
   path = " #{entry.path}\n"
   insert = thru null, -> @queue path
   entry.pipe(hash)
