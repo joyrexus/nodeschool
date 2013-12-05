@@ -1,4 +1,4 @@
-# Encryption
+# Crypt
 
 Your module will be given a passphrase on `process.argv[2]` and 'aes256'
 encrypted data will be written to stdin.

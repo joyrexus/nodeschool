@@ -12,5 +12,5 @@ Solutions to the [nodeschool](http://nodeschool.io)'s [stream adventure](http://
 * [HTTP CLIENT](08-client)
 * [WEBSOCKETS](09-socket)
 * [HTML STREAM](10-html)
-* [CRYPT]()
-* [SECRETZ]()
+* [CRYPT](11-crypt)
+* [SECRETZ](12-secret)
