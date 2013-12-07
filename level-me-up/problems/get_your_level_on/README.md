@@ -1,4 +1,6 @@
-Write a program that opens a LevelDB data-store using `{bold}level{/bold}`.
+# Get Your Level On
+
+Write a program that opens a LevelDB data-store using `level`.
 
 Fetch and print to the console the value associated with the key
 'levelmeup'.
@@ -6,11 +8,11 @@ Fetch and print to the console the value associated with the key
 The first command-line argument to your program will be the full path
 to the directory containing the LevelDB store.
 
-----------------------------------------------------------------------
-HINTS:
 
-`{bold}level{/bold}` is a package that bundles both `{bold}levelup{/bold}`, the Node-friendly
-data-store API and `{bold}leveldown{/bold}`, the low-level LevelDB binding.
+## Hints
+
+`level` is a package that bundles both `levelup`, the Node-friendly
+data-store API and `leveldown`, the low-level LevelDB binding.
 
 Read more about Level and LevelUP:
   http://npm.im/levelup
@@ -26,9 +28,9 @@ directory and copy the following directory into it:
 
 You can open an existing data-store, or create a new one, by invoking
 `level()` and passing in a path to a directory. The function returns
-a new {italic}LevelUP{/italic} instance.
+a new *LevelUP* instance.
 
-All LevelUP methods are asynchronous. To {italic}get{/italic} a value out of the
+All LevelUP methods are asynchronous. To *get* a value out of the
 data-store, use the `.get(key, callback)` method:
 
   var level = require('level')

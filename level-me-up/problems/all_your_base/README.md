@@ -1,18 +1,20 @@
-To get into the rhythm, let's do a simple {italic}hello world{/italic}.
+# ALL YOUR BASE
 
-Write a Node program that accepts two command-line arguments, {bold}X{/bold} and
-{bold}Y{/bold} and prints out to the console the following text:
+To get into the rhythm, let's do a simple *hello world*.
 
-  ALL YOUR {bold}{italic}X{/italic}{/bold} ARE BELONG TO {bold}{italic}Y{/italic}{/bold}
+Write a Node program that accepts two command-line arguments, X and
+Y and prints out to the console the following text:
+
+  ALL YOUR *X* ARE BELONG TO *Y*
 
 When you have completed your program, you can run it in the test
 environment with:
 
-  {bold}{appname} run program.js{/bold}
+  levelmeup run program.js
 
 And once you are happy that it is correct then run:
 
-  {bold}{appname} verify program.js{/bold}
+  levelmeup verify program.js
 
 And your submission will be verified for correctness. After you have
-a correct solution, run `{bold}{appname}{/bold}` again and select the next problem!
+a correct solution, run `levelmeup` again and select the next problem!
