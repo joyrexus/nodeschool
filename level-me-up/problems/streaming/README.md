@@ -1,3 +1,5 @@
+# Streaming
+
 Write a program that prints all of the key/value pairs in a LevelDB
 store to the console. You will be provided with the location of the
 store as the first argument on the command-line.
@@ -6,8 +8,8 @@ Each entry should be printed on a new line to stdout in the form:
 
 key=value
 
----------------------------------------------------------------------
-HINTS:
+
+## Hints
 
 Since you don't know what the keys are in this exercise you can't
 use `get()`. Instead, you'll need to query the data store using
