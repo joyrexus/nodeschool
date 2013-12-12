@@ -41,8 +41,8 @@ Your solution will be tested against the official solution, you must
 use a ReadStream that **only** returns the exact words that your query
 needs to match, and no more.
 
----------------------------------------------------------------------
-HINTS:
+
+## Hints
 
 This exercise is about coming up with a key schema that is going to be
 useful for retrieving results according to the queries you can expect.
