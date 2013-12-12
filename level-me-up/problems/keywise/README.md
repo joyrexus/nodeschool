@@ -1,3 +1,5 @@
+# Keywise
+
 Write a program that reads in a JSON file containing mappings of
 usernames to their GitHub repositories and store them in a LevelUP
 data-store such that they can be searched.
@@ -20,7 +22,7 @@ And some are repositories:
 You must write all of the entries in this file to the data-store.
 
 Open the data-store and write data with '!' as a delimiter such that
-the verify script will be able to read the {bold}repos for each user{/bold} by
+the verify script will be able to read the **repos for each user** by
 doing the following range query:
 
     db.createReadStream({ start: 'rvagg!', end: 'rvagg!~' })
@@ -32,8 +34,8 @@ The user data should also be fetchable with:
 The value of each entry of the data-store should be the same as the
 original JSON object from the data file.
 
----------------------------------------------------------------------
-HINTS:
+
+## Hints
 
 To simplify the use of JSON here you can open your LevelUP store
 with the option: `valueEncoding: 'json'`, i.e.
