@@ -1,6 +1,6 @@
 # Learn You Node
 
-Solutions to the [nodeschool](http://nodeschool.io)'s [learn-you-node](http://nodeschool.io/#learn-you-node) track.
+Solutions to [nodeschool](http://nodeschool.io)'s [learn-you-node](http://nodeschool.io/#learn-you-node) track.
 
 * [HELLO WORLD](01-hello)
 * [BABY STEPS](02-argv)
