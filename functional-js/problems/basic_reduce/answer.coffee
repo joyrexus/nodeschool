@@ -1,7 +1,6 @@
 module.exports = (words) ->
-  count = {}
-  toWordCounts = (prev, word, i, arr) -> 
-    count[word] ?= 0  # initialize to zero if not found
-    count[word] += 1
+  toWordCounts = (count, word) ->
+    count[word] ?= 0  # initialize if not yet counted
+    count[word] += 1  # increment otherwise
     count
-  words.reduce toWordCounts, count
+  words.reduce toWordCounts, count={}
