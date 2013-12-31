@@ -1,5 +1,7 @@
 # Functional Javascript
 
+My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http://nodeschool.io/#functionaljs) track.
+
 * [Hello World](problems/hello_world)
 * [Higher Order Functions](problems/higher_order_functions)
 * Basics

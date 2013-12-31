@@ -1,1 +1,1 @@
-My solutions to the [nodeschool.io](http://nodeschool.io) problem sets.
+My answers to the [nodeschool.io](http://nodeschool.io) problem sets.

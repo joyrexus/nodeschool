@@ -1,6 +1,6 @@
 # Bytewiser
 
-My solutions to [nodeschool](http://nodeschool.io)'s [bytewiser](http://nodeschool.io/#bytewiser) track.
+My answers for [nodeschool](http://nodeschool.io)'s [bytewiser](http://nodeschool.io/#bytewiser) track.
 
 * [Buffer From String](problems/buffer_from_string)
 * [Hexadecimal Encoding](problems/hexadecimal_encoding)

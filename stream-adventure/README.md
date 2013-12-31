@@ -1,6 +1,6 @@
 # Stream Adventure
 
-Solutions to [nodeschool](http://nodeschool.io)'s [stream adventure](http://nodeschool.io/#stream-adventure) track.
+My answers for [nodeschool](http://nodeschool.io)'s [stream adventure](http://nodeschool.io/#stream-adventure) track.
 
 * [BEEP BOOP](01-beep)
 * [MEET PIPE](02-pipe)

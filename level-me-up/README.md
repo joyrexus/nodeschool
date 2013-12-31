@@ -1,6 +1,6 @@
 # Level Me Up
 
-Solutions to [nodeschool](http://nodeschool.io)'s [level-me-up](http://nodeschool.io/#levelmeup) track.
+My answers for [nodeschool](http://nodeschool.io)'s [level-me-up](http://nodeschool.io/#levelmeup) track.
 
 * [ALL YOUR BASE](problems/all_your_base)
 * [GET YOUR LEVEL ON!](problems/get_your_level_on)
