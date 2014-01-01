@@ -1,6 +1,6 @@
 {ok, deepEqual} = require 'assert'
 isEqual = deepEqual
-reduce = require 'answer'
+reduce = require 'answer-3'
 
 words = 'ababca'.split('') 
 
