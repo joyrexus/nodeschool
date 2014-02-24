@@ -1,10 +1,10 @@
-{ok} = require 'assert'
+{deepEqual} = require 'assert'
 
-getCounts = (words) ->
-  count = {}
-  count[w] = (count[w] or 0) + 1 for w in words
-  count
+counts = (words) ->
+  totals = {}
+  totals[w] = (totals[w] or 0) + 1 for w in words
+  totals
 
-ok getCounts ['a', 'a', 'b'] is
+deepEqual counts(['a', 'a', 'b']),
   a: 2
   b: 1
