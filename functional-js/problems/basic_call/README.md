@@ -9,8 +9,7 @@ to James Whitcomb Riley, which may be phrased as follows:
 In JavaScript, in order to write robust programs we sometimes need to
 check an object conforms to the type that we need.
 
-We can use Object#hasOwnProperty to detect if an object 'has' a property defined on itself (i.e. not
-inherited from its prototype):
+We can use Object#hasOwnProperty to detect if an object 'has' a property defined on itself (i.e. not inherited from its prototype):
 
 ```js
 
@@ -72,9 +71,8 @@ Object.prototype.hasOwnProperty.call(object, 'quack') // => true
 
 Task:
 
-Write a function `duckCount` that returns the number of arguments passed to it which
-have a property 'quack' defined directly on them. Do not match values inherited
-from prototypes.
+Write a function `duckCount` that returns the number of arguments passed to 
+it which have a property 'quack' defined directly on them. Do not match values inherited from prototypes.
 
 Example:
 

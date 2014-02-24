@@ -9,8 +9,8 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
   * [Filter](problems/basic_filter)
   * [Every/Some](problems/basic_every_some)
   * [Reduce](problems/basic_reduce)
-  * Recursion
-  * Call
+  * [Recursion](problems/basic_recursion)
+  * [Call](problems/basic_call)
 * Partial Application without Bind
 * Partial Application with Bind
 * Implement Map with Reduce
