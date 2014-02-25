@@ -13,7 +13,7 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
   * [Call](problems/basic_call)
 * [Partial Application without Bind](problems/partial_application_without_bind)
 * [Partial Application with Bind](problems/partial_application_with_bind)
-* Implement Map with Reduce
+* [Implement Map with Reduce](problems/implement_map_with_reduce)
 * Function Spies
 * Blocking Event Loop
 * Trampoline
