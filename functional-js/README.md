@@ -11,8 +11,8 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
   * [Reduce](problems/basic_reduce)
   * [Recursion](problems/basic_recursion)
   * [Call](problems/basic_call)
-* Partial Application without Bind
-* Partial Application with Bind
+* [Partial Application without Bind](problems/partial_application_without_bind)
+* [Partial Application with Bind](problems/partial_application_with_bind)
 * Implement Map with Reduce
 * Function Spies
 * Blocking Event Loop

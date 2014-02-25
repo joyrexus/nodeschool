@@ -1,21 +1,16 @@
 **Use Function#bind** to implement a logging function that allows you to namespace messages.
 
-Your implementation should take a namespace string, and return a function that prints
-messages to the console with the namespace prepended.
+Your implementation should take a namespace string, and return a function that prints messages to the console with the namespace prepended.
 
 Make sure *all* arguments passed to the returned logging function are printed.
 
 ** Print the output to the console directly **
 
-###############
-## Arguments ##
-###############
+## Arguments
 
 * namespace: a String to prepend to each message passed to the returned function.
 
-#############
-## Example ##
-#############
+## Example
 
 ```js
 
@@ -29,15 +24,11 @@ warn('this is a warning message', 'with more info')
 
 ```
 
-################
-## Conditions ##
-################
+## Conditions
 
 * Use Function#bind
 
-#################
-## Boilerplate ##
-#################
+## Boilerplate
 
 ```js
 
@@ -47,8 +38,6 @@ module.exports = function(namespace) {
 
 ```
 
-###############
-## Resources ##
-###############
+## Resources
 
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
