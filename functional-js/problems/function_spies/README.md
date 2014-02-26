@@ -1,11 +1,8 @@
-Override a specified method of an object with new functionality while still maintaining all of the old
-behaviour.
+Override a specified method of an object with new functionality while still maintaining all of the old behaviour.
 
 Create a spy that keeps track of how many times a function is called.
 
-#############
-## Example ##
-#############
+## Example
 
 ```js
 var spy = Spy(console, 'error')
@@ -34,9 +31,7 @@ Hint:
 * Functions have context, input and output. Make sure you match the context,
   the input to *and output from* the function you are spying on.
 
-#################
-## Boilerplate ##
-#################
+## Boilerplate
 
 ```js
 
