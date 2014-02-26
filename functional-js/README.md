@@ -14,7 +14,7 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * [Partial Application without Bind](problems/partial_application_without_bind)
 * [Partial Application with Bind](problems/partial_application_with_bind)
 * [Implement Map with Reduce](problems/implement_map_with_reduce)
-* Function Spies
+* [Function Spies](problems/function_spies)
 * Blocking Event Loop
 * Trampoline
 * Async Loops
@@ -22,4 +22,12 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * Currying
 * Function Call
 
+
+## See also
+
+* [functional-javascript](http://www.functionaljavascript.com)
+
+* [coffeescript-ristretto](https://leanpub.com/coffeescript-ristretto/read)
+
+* [javascript-allonge](https://github.com/raganwald/javascript-allonge)
 
