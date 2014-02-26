@@ -4,10 +4,11 @@
     __slice = [].slice;
 
   Spy = (function() {
+    Spy.prototype.count = 0;
+
     function Spy(target, method) {
       var f,
         _this = this;
-      this.count = 0;
       f = target[method];
       target[method] = function() {
         var args;
@@ -21,16 +22,19 @@
 
   })();
 
-  module.exports = Spy;
+  module.exports = function(target, method) {
+    return new Spy(target, method);
+  };
 
   /*
+  
   spy = new Spy console, 'error'
   
-  console.error 'hi!', 'hi?'
-  console.error 'hi!', 'hi?'
-  console.log spy.count
-  console.error 'ok!', 'ok!'
-  console.log spy.count
+  console.error 'hi!', 'hi?'  # first call
+  console.error 'hi!', 'hi?'  # second call
+  console.log spy.count       # 2
+  console.error 'ok!', 'ok!'  # third call
+  console.log spy.count       # 3
   */
 
 
