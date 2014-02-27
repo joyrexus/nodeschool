@@ -15,7 +15,7 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * [Partial Application with Bind](problems/partial_application_with_bind)
 * [Implement Map with Reduce](problems/implement_map_with_reduce)
 * [Function Spies](problems/function_spies)
-* Blocking Event Loop
+* [Blocking Event Loop](problems/blocking_event_loop)
 * Trampoline
 * Async Loops
 * Recursion
