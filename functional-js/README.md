@@ -16,7 +16,7 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * [Implement Map with Reduce](problems/implement_map_with_reduce)
 * [Function Spies](problems/function_spies)
 * [Blocking Event Loop](problems/blocking_event_loop)
-* Trampoline
+* [Trampoline](problems/trampoline)
 * Async Loops
 * Recursion
 * Currying

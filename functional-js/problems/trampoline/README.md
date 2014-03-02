@@ -1,3 +1,7 @@
+See [this article](http://raganwald.com/2013/03/28/trampolines-in-javascript.html) for an introduction to trampolines in a javascript context.
+
+---
+
 The boilerplate includes a definition of `repeat`. `repeat` will take
 a Function operation, and a Number num, and invoke operation num times:
 
@@ -25,9 +29,7 @@ console.log('executed %d times', count)
 
 ```
 
-########
-# Task #
-########
+# Task
 
 Modify the boilerplate below such that it uses a trampoline to
 continuously call itself synchronously.
@@ -36,16 +38,12 @@ You can assume that the operation passed to repeat does not take
 arguments (or they are already bound to the function) and the
 return value is not important.
 
-##############
-# Conditions #
-##############
+# Conditions
 
 * Do not change the implementation of repeat to include any loops (you
   may change it in other ways though).
 
-###############
-# Boilerplate #
-###############
+# Boilerplate
 
 ```js
 
@@ -67,9 +65,7 @@ module.exports = function(operation, num) {
 
 ```
 
-#########
 # Hints #
-#########
 
 * Modify `repeat` so it returns the 'next step', if there is one.
 * A trampoline continues to synchronously execute steps, getting new

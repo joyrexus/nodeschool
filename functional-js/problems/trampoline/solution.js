@@ -12,8 +12,16 @@ function trampoline(fn) {
   }
 }
 
-module.exports = function(operation, num) {
+module.exports = _repeat = function(operation, num) {
   trampoline(function() {
     return repeat(operation, num)
   })
 }
+
+var count = 0
+_repeat(function() {
+  count++
+}, 100000)
+
+console.log('executed %d times.', count)
+// => executed 100 times.
