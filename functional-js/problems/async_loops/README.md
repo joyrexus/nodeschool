@@ -25,8 +25,7 @@ Because this function is asynchronous, we do not care about its return value.
 Arguments:
 
 * userIds: an Array of numeric user ids.
-* load: a Function used to load user objects. Expects a numeric id and a callback. The callback will be called with the
-  result of loading the user with the specified id (either a user object or null).
+* load: a Function used to load user objects. Expects a numeric id and a callback. The callback will be called with the result of loading the user with the specified id (either a user object or null).
 * done: a Function that expects an Array of user objects (as retrieved from `load`).
 
 Conditions:
@@ -40,9 +39,7 @@ Hint:
 * You don't need to use a sort to maintain ordering.
 
 
-#################
 ## Boilerplate ##
-#################
 
 ```js
 
