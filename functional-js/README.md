@@ -27,6 +27,8 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 
 * [functional-javascript](http://www.functionaljavascript.com)
 
+* [functional-coffescript](https://github.com/joyrexus/func-js-book)
+
 * [coffeescript-ristretto](https://leanpub.com/coffeescript-ristretto/read)
 
 * [javascript-allonge](https://github.com/raganwald/javascript-allonge)
