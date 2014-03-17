@@ -1,19 +1,10 @@
-########
-# Task #
-########
-
-Implement a recursive function that returns all of the unique dependencies, and sub-dependencies
-of a module, sorted alphabetically. Dependencies should be printed as dependency@version
-e.g. 'inflection@1.2.6'. Multiple versions of the same module are allowed, but duplicates modules of
-the same version should be removed.
+Implement a recursive function that returns all of the unique dependencies, and sub-dependencies of a module, sorted alphabetically. Dependencies should be printed as dependency@version e.g. 'inflection@1.2.6'. Multiple versions of the same module are allowed, but duplicates modules of the same version should be removed.
 
 Arguments:
 
 * tree: A dependency tree. See below for an example of the structure. 
 
-#############
-## Example ##
-#############
+## Example
 
 ```js
 var loremIpsum = {
@@ -43,9 +34,7 @@ Conditions:
 * Do not use any for/while loops.
 
 
-#################
-## Boilerplate ##
-#################
+## Boilerplate
 
 ```js
 
@@ -61,8 +50,6 @@ module.exports = getDependencies
 ```
 
 
-#############
-# Resources #
-#############
+## Resources
 
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys

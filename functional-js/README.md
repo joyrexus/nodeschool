@@ -18,7 +18,7 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * [Blocking Event Loop](problems/blocking_event_loop)
 * [Trampoline](problems/trampoline)
 * [Async Loops](problems/async_loops)
-* Recursion
+* [Recursion](problems/recursion)
 * Currying
 * Function Call
 
