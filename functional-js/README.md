@@ -19,7 +19,7 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * [Trampoline](problems/trampoline)
 * [Async Loops](problems/async_loops)
 * [Recursion](problems/recursion)
-* Currying
+* [Currying](problems/currying)
 * Function Call
 
 
