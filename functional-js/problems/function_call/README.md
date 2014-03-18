@@ -1,6 +1,4 @@
-##########
-## Task ##
-##########
+## Task
 
 Write a function that allows you to use `Array.prototype.slice` without 
 using `.call` to invoke it.
@@ -28,9 +26,8 @@ function() {
 
 ```
 
-#####################
-## Expected Output ##
-#####################
+
+## Expected Output
 
 A function, `slice` that exhibits the following behaviour:
 
@@ -50,15 +47,13 @@ nums.slice(0, 2) // [1, 2]
 nums.slice(1, 2) // [2]
 ```
 
-################
-## Conditions ##
-################
+
+## Conditions
 
 * Do not use the `function` keyword :D
 
-#################
+
 ## Boilerplate ##
-#################
 
 ```js
 
@@ -66,9 +61,7 @@ module.exports = // your solution here!
 
 ```
 
-###########
-## Hints ##
-###########
+## Hints
 
 * This is absolutely a one liner.
 * Every JavaScript Function inherits methods such as call, apply and bind

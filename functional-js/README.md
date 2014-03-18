@@ -20,16 +20,13 @@ My answers for [nodeschool](http://nodeschool.io)'s [functional javascript](http
 * [Async Loops](problems/async_loops)
 * [Recursion](problems/recursion)
 * [Currying](problems/currying)
-* Function Call
+* [Function Call](problems/function_call)
 
 
 ## See also
 
 * [functional-javascript](http://www.functionaljavascript.com)
-
 * [functional-coffescript](https://github.com/joyrexus/func-js-book)
-
 * [coffeescript-ristretto](https://leanpub.com/coffeescript-ristretto/read)
-
 * [javascript-allonge](https://github.com/raganwald/javascript-allonge)
 
