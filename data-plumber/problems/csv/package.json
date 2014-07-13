@@ -1,0 +1,12 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "gasket": [
+    "csv-parser",
+    "jsonfilter name"
+  ],
+  "dependencies": {
+    "csv-parser": "^1.4.1",
+    "jsonfilter": "^1.0.0"
+  }
+}

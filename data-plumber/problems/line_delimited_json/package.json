@@ -1,0 +1,10 @@
+{
+  "name": "line_delimited_json",
+  "version": "0.0.0",
+  "gasket": [
+    "jsonfilter name"
+  ],
+  "dependencies": {
+    "jsonfilter": "~1.0.2"
+  }
+}

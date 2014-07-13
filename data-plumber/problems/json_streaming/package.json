@@ -1,0 +1,10 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "gasket": [
+    "jsonfilter rows.*.doc.song"
+  ],
+  "dependencies": {
+    "jsonfilter": "^1.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "gasket": [
+    "csv-parser people.csv",
+    "trim-object-stream",
+    "jq '.FIRST'"
+  ],
+  "dependencies": {
+    "csv-parser": "^1.4.1",
+    "trim-object-stream": "~1.0.0"
+  }
+}

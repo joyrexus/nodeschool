@@ -1,0 +1,9 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "gasket": [
+    "cat people.csv",
+    "csv-parser",
+    "jsonfilter FIRST"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "gasket": [
+    "excel-stream",
+    "jsonfilter *.DESCRIPTION"
+  ],
+  "dependencies": {
+    "excel-stream": "^1.0.6"
+  }
+}
