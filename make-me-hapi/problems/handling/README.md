@@ -10,8 +10,8 @@ Create a server which responds to requests to `/` with a static HTML file named
 </html>
 ```
 
------------------------------------------------------------------
-##HINTS
+
+## Hints
 
 You can declare handlers as objects instead of functions. The object must
 contain one of the following: `file`, `directory`, `proxy`, or `view`.
