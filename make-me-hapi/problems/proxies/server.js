@@ -2,18 +2,14 @@
 var Hapi = require('hapi');
 var server = Hapi.createServer('localhost', process.argv[2] || 8080);
 
-server.views({
-    engines: {
-        html: require('handlebars')
-    },
-    path: './templates'
-});
-
 server.route({
     method: 'GET',
-    path: '/',
-    handler: { 
-        view: "index" 
+    path: '/proxy',
+    handler: {
+        proxy: {
+            host: '127.0.0.1',
+            port: 65535
+        }
     }
 });
 
