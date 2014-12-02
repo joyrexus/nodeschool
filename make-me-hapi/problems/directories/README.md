@@ -10,8 +10,8 @@ file in a directory, e.g. `public/file.html`, which contains the following:
 </html>
 ```
 
------------------------------------------------------------------
-##HINTS
+
+## Hints
 
 Handlers can be declared as an object with a directory path:
 
