@@ -1,2 +1,4 @@
 staging
 node_modules
+*.xls
+*.xml
