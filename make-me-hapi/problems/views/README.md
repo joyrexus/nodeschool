@@ -10,11 +10,10 @@ located at `templates/index.html` which outputs the following HTML:
 </html>
 ```
 
------------------------------------------------------------------
-##HINTS
 
-The `view` key can be used to define the template to be used to generate the
-response.
+## Hints
+
+The `view` key can be used to define the template to be used to generate the response.
 
 ```js
 handler: {
