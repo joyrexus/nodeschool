@@ -10,8 +10,7 @@ Output should look like:
 Gur Chefhvg bs Uncv-arff
 ```
 
------------------------------------------------------------------
-##HINTS
+## Hints
 
 ### Stream
 
