@@ -1,5 +1,5 @@
 Create a server which responds to requests to `/?name=Helping&suffix=!` using
-the template from the VIEWS exercise.
+the template from the **VIEWS** exercise.
 
 Instead of placing the query parameter directly in the template, create a helper
 at `helpers/helper.js` and use this helper in the template to output the `name`
@@ -16,8 +16,8 @@ query parameter.
 
 The helper should concatenate the `name` and `suffix` query parameters.
 
------------------------------------------------------------------
-##HINTS
+
+## Hints
 
 Helpers are functions used within templates to perform transformations and other
 data manipulations using the template context or other inputs.
