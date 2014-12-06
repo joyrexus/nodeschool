@@ -16,7 +16,7 @@ You can write to the console in the same way as in the browser:
 
 When you are done, you must run:
 
-   {appname} verify myprogram.js
+    learnyounode verify myprogram.js
 
 to proceed. Your program will be tested, a report will be generated,
 and the lesson will be marked 'completed' if you are successful.
