@@ -5,25 +5,19 @@ directory name as the first argument to your program (e.g.
 argument.
 
 For example, if you get 'txt' as the second argument then you will
-need to filter the list to only files that {bold}end with .txt{/bold}.
+need to filter the list to only files that end with `.txt`.
 
 The list of files should be printed to the console, one file per line.
-You {bold}must{/bold} use asynchronous I/O.
+You *must* use asynchronous I/O.
 
-----------------------------------------------------------------------
-HINTS:
+
+## Hints
 
 The `fs.readdir()` method takes a pathname as its first argument and a
 callback as its second. The callback signature is:
 
-  function (err, list) { ... }
+    function (err, list) { ... }
 
 where `list` is an array of filename strings.
 
-Documentation on the `fs` module can be found by pointing your browser
-here:
-  {rootdir:/node_apidoc/fs.html}
-
 You may also find the standard JavaScript `RegExp` class helpful here.
-
-----------------------------------------------------------------------
