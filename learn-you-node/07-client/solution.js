@@ -11,4 +11,4 @@ var done = function (response) {
 };
 
 
-http.get(url, done).on('error', console.error);
+http.get(url, done);

@@ -7,14 +7,19 @@ var args = process.argv.slice(2, 4),
 
 var ext = new RegExp('\\.' + filter + '$');
 
+
 var matching = function (d) {
+
     return ext.test(d);
 };
 
+
 var printFiltered = function (err, list) {
+
     list.sort()
         .filter(matching)
         .forEach(function (f) {
+
             console.log(f);
         });
 };
