@@ -1,14 +1,14 @@
-Write an HTTP {bold}server{/bold} that serves the same text file for each request
+Write an HTTP server that serves the same text file for each request
 it receives.
 
 You will be provided with the location of the file to serve as the
-first command-line argument. You {bold}must{/bold} use the `fs.createReadStream()`
+first command-line argument. You must use the `fs.createReadStream()`
 method to stream the file contents to the response.
 
-Your server should listen on {bold}port 8000{/bold}.
+Your server should listen on port 8000.
 
-----------------------------------------------------------------------
-HINTS:
+
+## Hints
 
 Because we need to create an HTTP server for this exercise rather than
 a generic TCP server, we should use the `http` module from Node core.
@@ -20,7 +20,7 @@ HTTP.
 connection received by your server. The callback function has the
 signature:
 
-  function (request, response) { ... }
+    function (request, response) { ... }
 
 Where the two arguments are objects representing the HTTP request
 and the corresponding response for this request. `request` is used to
@@ -38,15 +38,11 @@ particular port.
 
 A typical Node HTTP server looks like this:
 
-  var http = require('http')
-  var server = http.createServer(function (req, res) {
-    // request handling logic...
-  })
-  server.listen(8000)
-
-Documentation on the `http` module can be found by pointing your
-browser here:
-  {rootdir:/node_apidoc/http.html}
+    var http = require('http')
+    var server = http.createServer(function (req, res) {
+      // request handling logic...
+    })
+    server.listen(8000)
 
 The `fs` core module also has some streaming APIs for files. You will
 need to use the `fs.createReadStream()` method to create a stream
@@ -54,5 +50,3 @@ representing the file you are given as a command-line argument. The
 method returns a stream object which you can use `src.pipe(dst)` to
 pipe the data from the `src` stream to the `dst` stream. In this way
 you can connect a filesystem stream with an HTTP response stream.
-
-----------------------------------------------------------------------
