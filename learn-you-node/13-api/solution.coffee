@@ -1,5 +1,6 @@
 http = require 'http'
 url = require 'url'
+port = process.argv[2]
 
 connect = (req, res) ->
   parsed = url.parse(req.url, true)
@@ -17,4 +18,4 @@ connect = (req, res) ->
   res.writeHead(200, 'Content-Type': 'application/json')
   res.end JSON.stringify result
 
-http.createServer(connect).listen(8000)
+http.createServer(connect).listen(port)
